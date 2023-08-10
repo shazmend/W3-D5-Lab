@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Nav Start -->
+    <p id = "resetLocalStorage"></p>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                JoGeek
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <div class="nav-links">
+            <a href="https://github.com/shazmend" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/shatha-alzahrani-b8631823b/" target="_blank">LinkedIn</a>
+
+        </div>
+    </div>
+    <!-- Nav End -->
+
+
+    <!-- Form Start -->
+
+    <div class="container">
+
+        <div class="logIn-form">
+            <h2>Please LogIn</h2>
+            <input id="name" placeholder="name" type="text">
+            <input id="pass" placeholder="pass" type="password">
+            <button id="logIn"onclick="LogIn()">LogIn</button>
+            <p id="user-name"></p>
+        </div>
+
+    </div>
+
+    <!-- Form End -->
+
+    <!-- javascript -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
